@@ -1,5 +1,4 @@
 # Prosper Loan Data Exploration
-## by Demagh Mohamed El Amine
 
 
 ## Dataset
@@ -10,7 +9,7 @@ I only selected the loans that originated after 2009 because I wanted to capture
 
 I selected 9 columns from the dataset for my analysis: `ListingKey`, `listing_category_num`, `prosper_rating_alpha`, `LoanOriginalAmount`, `Term`, `LenderYield`, `LoanOriginationDate`, `ClosedDate` and `LoanStatus`.
 
-The cleaning steps involved renaming some columns, deleting missing values, converting `listing_category_num` from numbers to category names, casting the datatype of `LoanOriginationDate` and `ClosedDate` to datetime, casting `prosper_rating_alpha`, `Term` and `LoanStatus` to categorical dtype.`Term` was ordered ascendingly (12-months term < 36-months term < 60-months term) and`prosper_rating_alpha` was ordred from the least risky investement to the riskiest (AA < A < B < C < D < E < HR(High Risk) ).
+The cleaning steps involved renaming some columns, deleting missing values, converting `listing_category_num` from numbers to category names, casting the datatype of `LoanOriginationDate` and `ClosedDate` to datetime, casting `prosper_rating_alpha`, `Term` and `LoanStatus` to categorical dtype.`Term` was ordered ascendingly (12-months term < 36-months term < 60-months term) and`prosper_rating_alpha` was ordred from the least risky investement to the riskiest (AA < A < B < C < D < E < HR (High Risk) ).
 
 
 
