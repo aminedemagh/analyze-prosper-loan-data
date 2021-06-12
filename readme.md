@@ -1,5 +1,8 @@
 # Prosper Loan Data Exploration
 
+## Date created
+This project was created on 2021-05-22.
+
 
 ## Dataset
 
