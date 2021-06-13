@@ -3,6 +3,13 @@
 ## Date created
 This project was created on 2021-05-22.
 
+## Description
+
+This project explores [Prosper Marketplace](https://www.prosper.com/)’s loans dataset. Prosper is a website for peer-to-peer lending. Borrowers fill in forms to ask for loans that are presented to potential investors on their webpage. The platform offers loans ranging from 2000$ to 40,000$. Investors receive yearly interest while Prosper [produces revenue](https://prosper.zendesk.com/hc/en-us/articles/210013193-How-does-Prosper-make-money-) from servicing fees and transaction fees.
+
+The data can be downloaded from [here](https://s3.amazonaws.com/udacity-hosted-downloads/ud651/prosperLoanData.csv)
+
+The dictionary to explain the variables can be downloaded from [here](https://docs.google.com/spreadsheets/d/1gDyi_L4UvIrLTEC6Wri5nbaMmkGmLQBk-Yx3z0XDEtI)
 
 ## Dataset
 
