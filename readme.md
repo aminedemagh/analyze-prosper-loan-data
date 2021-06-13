@@ -18,6 +18,26 @@ The dictionary to explain the variables can be downloaded from [here](https://do
 - __prosper_exploration_slides.slides.html__ : the slides that were created from `prosper_exploration_slides.ipynb` using jupyter nbconvert. They can be viewed using any browser.
 - __output_toggle.tpl__ : the template that was used to create the slides.
 
+## Installation
+
+To to run the notebook, you will need `jupyter`, `python`, `pandas`, `matplotlib`, and `seaborn` installed. You will also need `nbconvert` to convert your .ipynb file to slides.
+
+You can download all these libraries and tools individually or with [Anaconda](https://www.anaconda.com/), a python distribution with a focus on data science. If you’re interested in Anaconda you can follow their [installation guide](https://www.anaconda.com/distribution/).
+
+If you want to convert `prosper_exploration_slides.ipynb` to slides, you need to run the command below in your terminal :
+
+`jupyter nbconvert prosper_exploration_slides.ipynb --to slides --post serve --template output_toggle`
+
+This command will also start a server and load the slides in your default browser. However, you can use it only with a version of `nbconvert` that is earlier than 6. After 6, `nbconvert` stopped using .tpl files for templates and started using directories.
+
+If you downloaded Anaconda recently, you're likely to have a version of `nbconvert` that is older than 6. Use the command below to download an earlier version :
+
+`pip install 'nbconvert < 6.0'`
+
+After converting your notebook to slides, you should upgrade `nbconvert` to the latest version to use all its functionalities (converting to .pdf, .html, ...)
+
+`pip install --upgrade nbconvert`
+
 ## Dataset
 
 The dataset that I chose was Prosper's loan dataset. It contains information about 113937 loans and 81 variables. It includes two periods of the company: a pre-2009 period before the enactment of the laws for online lending and a post-2009 period where Prosper changed its business model to comply with the new laws. 
