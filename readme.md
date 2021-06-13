@@ -11,6 +11,13 @@ The data can be downloaded from [here](https://s3.amazonaws.com/udacity-hosted-d
 
 The dictionary to explain the variables can be downloaded from [here](https://docs.google.com/spreadsheets/d/1gDyi_L4UvIrLTEC6Wri5nbaMmkGmLQBk-Yx3z0XDEtI)
 
+## Files used
+
+- __prosper_exploration.ipynb__ : a jupyter notebook containing the code and the documentation for the analysis.
+- __prosper_exploration_slides.ipynb__ : a subset of `prosper_exploration.ipynb`.  It contains only the main insights that were uncovered in the analysis and it is used to create a slideshow to display them.
+- __prosper_exploration_slides.slides.html__ : the slides that were created from `prosper_exploration_slides.ipynb` using jupyter nbconvert. They can be viewed using any browser.
+- __output_toggle.tpl__ : the template that was used to create the slides.
+
 ## Dataset
 
 The dataset that I chose was Prosper's loan dataset. It contains information about 113937 loans and 81 variables. It includes two periods of the company: a pre-2009 period before the enactment of the laws for online lending and a post-2009 period where Prosper changed its business model to comply with the new laws. 
