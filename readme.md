@@ -68,3 +68,10 @@ To get an even deeper sense of the interactions between my variables, I decided 
 I started my presentation by showing the distribution of the loan status using a bar chart. Then, I plotted its relationship with Prosper Rating using a grouped bar chart. After that, I wanted to show that the other variables (term, loan amount, lender yield, listing category) had an independent effect on the loan status. Therefore, I plotted each one of them with both Prosper Rating and the loan status. I used a line plot for the term and the listing categories and I used boxplots for the loan amount and the lender yield. I chose not to present the remaining bivariate plots because their relationships were already covered in the 3-variables plots. Also, I left the visualizations with 4 and 5 variables because they were hard to display and interpret. 
 
 Compared to the exploration step, I changed the 'describe_cateogry()' function to return the axes object of the plots that it drew to customize them, I also removed the print statements from the function, and I formatted the y-axis of the percentages with PercentFormatter.
+
+## Credits
+Thanks to [Udacity](https://www.udacity.com/) for their great content.
+
+Thanks to [Prosper](https://www.prosper.com/) for providing their data to students.
+
+The solution to `nbconvert` issues was found in this [StackOverflow post](https://stackoverflow.com/questions/64528545/how-to-resolve-templatenotfound-error-when-upgrading-nbconvert-to-6-x).
