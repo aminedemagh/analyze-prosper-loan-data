@@ -40,7 +40,7 @@ After converting your notebook to slides, you should upgrade `nbconvert` to the 
 
 ## Dataset
 
-The dataset that I chose was Prosper's loan dataset. It contains information about 113937 loans and 81 variables. It includes two periods of the company: a pre-2009 period before the enactment of the laws for online lending and a post-2009 period where Prosper changed its business model to comply with the new laws. 
+The dataset contains information about 113937 loans and 81 variables. It includes two periods of the company: a pre-2009 period before the enactment of the laws for online lending and a post-2009 period where Prosper changed its business model to comply with the new laws. 
 
 I only selected the loans that originated after 2009 because I wanted to capture the latest trends in the data. My subset was comprised of 84997 loans that originated from 6 August 2009 to 27 March 2014.
 
